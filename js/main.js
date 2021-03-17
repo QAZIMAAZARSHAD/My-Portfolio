@@ -46,3 +46,8 @@ $(document).ready(function () {
     AOS.init();
 
 });
+
+// Preloader
+window.onload=function(){
+  document.getElementById('loading').style.display="none";
+}
