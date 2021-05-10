@@ -3,4 +3,10 @@
 • Visit my website -> [https://qazimaazarshad.github.io/My-Portfolio/](https://qazimaazarshad.github.io/My-Portfolio/)
 
 
-This is portfolio website of Qazi Maaz Arshad. This is one of the best projects I have worked on till now because I was really amazed by a few portfolio websites of my LinkedIn connections and decided to built my own. It is a static website designed using HTML, CSS and a little bit of JavaScript, my website is divided into multiple sections like navigation bar with links to all my social accounts, then  a button to download my resume then a carousel view of my education, another section giving an insights of my past experience alongside a section listing all my skills and projects with links to project destination, the last section tells about my hobbies, in the footer their is a small introduction about me and links to all my social profiles also a few images showing insights of my Instagram profile and a button which takes you straight to the top of this website so you don't have to scroll all the way up. I created this portfolio website because I wanted to showcase my work in a more attractive way and it gives employers a great first impression and shows I'm more than just a resume.
+This is my portfolio website it is a webpage that showcase all my credentials and 
+professional experiences. It is designed and created using HTML, CSS and JavaScript.
+Webpage consists of multiple sections like education, section giving insights about my work experience, skill set, projects, hobbies, contact, etc. 
+Website has following features : download my resume, visit all my social profiles, carousel view of education section, email me, access and view all my project work, scroll back to top of webpage from bottom etc.
+Scroll animation is used in all the sections using aos library. 
+Website is made attractive, interactive and completely responsive. All sections are arranged nicely. Hovering effects, images and logos, responsive links, sliding animations, preloader, scroll-up button, title bar logo, color theme, background image combination are other features which make website even more interactive and beautiful.
+The sole purpose behind creating this website is to showcase my work in a more attractive way and it gives employers a great first impression and shows I'm more than just a resume.
