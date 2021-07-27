@@ -403,8 +403,12 @@ main .post-content .post-title a{
     font-size: 1rem;
 }
 
+.site-content .sidebar .awards{
+    padding-top: 8rem;
+}
+
 .site-content .sidebar .newsletter{
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 .site-content .sidebar .newsletter .form-element{
