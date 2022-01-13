@@ -219,7 +219,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../Images/Background/i.jpg');
+    background: url('../Images/Background/back.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
