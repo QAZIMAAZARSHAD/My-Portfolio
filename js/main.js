@@ -47,7 +47,14 @@ $(document).ready(function () {
 
 });
 
+
 // Preloader
 window.onload=function(){
   document.getElementById('loading').style.display="none";
+}
+
+
+// Background Music
+window.onload=function(){
+  document.getElementById("my_audio").play();
 }
