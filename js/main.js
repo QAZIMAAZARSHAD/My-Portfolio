@@ -51,10 +51,12 @@ $(document).ready(function () {
 // Preloader
 window.onload=function(){
   document.getElementById('loading').style.display="none";
+  document.getElementById("my_audio").play();
 }
 
 
 // Background Music
-window.onload=function(){
-  document.getElementById("my_audio").play();
-}
+// $(document).on('click', function(){
+//     document.getElementById("my_audio").play();
+//     console.log('Shaadi Mein Zaroor Aana');
+// });
