@@ -248,7 +248,7 @@ main .site-title .btn:hover {
 }
 
 main .blog {
-  background: url("../Images/Background/background2.png");
+  background: url("../images/background/background2.png");
   background-repeat: no-repeat;
   background-position: right;
   height: 120vh;
