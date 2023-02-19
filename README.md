@@ -4,4 +4,4 @@
 
 **Preview**
 
-<p align="center"><img src="Demo.gif" width = 100% ></p>
+<p align = "center"><img src="Demo.gif" width = 100% ></p>
