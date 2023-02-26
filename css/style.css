@@ -211,17 +211,12 @@ p {
 /* ----------------- Main Content----------- */
 
 /* --------------- Site title ---------------- */
-main .site-title {
-  background: url("../images/background/i.png");
-  background-repeat: no-repeat;
+main .site-title .site-background img {
   max-width: 100%;
-  height: auto;
 }
 
 main .site-title .site-background {
-  padding-top: 10rem;
   text-align: center;
-  color: var(--white);
 }
 
 main .site-title h1,
@@ -230,8 +225,9 @@ h3 {
 }
 
 main .site-title .btn {
-  margin: 20rem;
+  margin: -13rem -7.6rem;
   background: var(--sky);
+  position: absolute;
 }
 
 main .site-title .btn:hover {
@@ -257,7 +253,7 @@ main .blog {
 }
 
 main .blog .blog-post {
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 
 main .blog-post .blog-content {
@@ -566,6 +562,12 @@ footer.footer .move-up span:hover {
   footer.footer .container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  main .site-title .btn {
+    margin: -8rem -7.6rem;
+    background: var(--sky);
+    position: absolute;
+  }
 }
 
 /*      x       Viewport less then or equal to 1130px    x     */
@@ -588,6 +590,13 @@ footer.footer .move-up span:hover {
 
   footer.footer .container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  main .site-title .btn {
+    padding: 0.6rem 0.6rem 0.7rem 0.7rem;
+    margin: -3rem -6.1rem;
+    background: var(--sky);
+    position: absolute;
   }
 }
 
@@ -615,6 +624,13 @@ footer.footer .move-up span:hover {
 
   nav .toggle-collapse {
     width: 80% !important;
+  }
+
+  main .site-title .btn {
+    padding: 0.6rem 0.6rem 0.7rem 0.7rem;
+    margin: -3rem -6.1rem;
+    background: var(--sky);
+    position: absolute;
   }
 }
 
