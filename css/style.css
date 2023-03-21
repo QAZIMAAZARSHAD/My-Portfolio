@@ -212,7 +212,7 @@ p {
 
 /* --------------- Site title ---------------- */
 main .site-title .site-background img {
-  max-width: 100%;
+  width: 100%;
 }
 
 main .site-title .site-background {
