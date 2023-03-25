@@ -97,6 +97,24 @@ p {
   z-index: 999;
 }
 
+@media only screen and (max-width: 480px) {
+  #loading {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  #loading {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  #loading {
+    background-size: contain;
+  }
+}
+
 /* ------x------- Preloader -------x-------*/
 
 /* --------------- Scroll Bar ----------------- */
