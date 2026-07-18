@@ -16,9 +16,45 @@
     <link rel="stylesheet" href="./css/aos.css">
     <!-- Custom Style   -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- New-portfolio announcement banner -->
+    <style>
+        .newsite-banner {
+            position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%);
+            z-index: 99999; display: flex; align-items: center; gap: 14px; max-width: 94vw;
+            padding: 11px 14px 11px 18px; border-radius: 9999px;
+            background: rgba(15, 23, 42, 0.92);
+            border: 1px solid rgba(129, 140, 248, 0.45);
+            box-shadow: 0 14px 44px rgba(79, 70, 229, 0.38);
+            -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+            font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #e2e8f0;
+            animation: newsiteUp 0.6s cubic-bezier(0.21, 0.47, 0.32, 0.98) both;
+        }
+        @keyframes newsiteUp { from { opacity: 0; transform: translate(-50%, 22px); } to { opacity: 1; transform: translate(-50%, 0); } }
+        .newsite-dot { width: 9px; height: 9px; border-radius: 50%; background: #22d3ee; flex: none; animation: newsitePulse 1.8s infinite; }
+        @keyframes newsitePulse { 0% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.55); } 70% { box-shadow: 0 0 0 11px rgba(34, 211, 238, 0); } 100% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0); } }
+        .newsite-text { font-size: 14px; font-weight: 500; white-space: nowrap; }
+        .newsite-text b { background: linear-gradient(90deg, #818cf8, #22d3ee); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; }
+        .newsite-btn { display: inline-block; text-decoration: none; white-space: nowrap; background: linear-gradient(90deg, #4f46e5, #06b6d4); color: #fff; font-size: 13px; font-weight: 700; padding: 9px 16px; border-radius: 9999px; box-shadow: 0 6px 18px rgba(79, 70, 229, 0.45); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .newsite-btn:hover { transform: translateY(-1px); box-shadow: 0 10px 26px rgba(6, 182, 212, 0.5); }
+        .newsite-close { background: transparent; border: none; color: #94a3b8; font-size: 20px; line-height: 1; cursor: pointer; padding: 2px 6px; border-radius: 8px; flex: none; }
+        .newsite-close:hover { color: #fff; }
+        @media (max-width: 560px) {
+            .newsite-banner { flex-wrap: wrap; justify-content: center; bottom: 12px; border-radius: 16px; text-align: center; }
+            .newsite-text { white-space: normal; }
+        }
+        @media (prefers-reduced-motion: reduce) { .newsite-banner, .newsite-dot { animation: none; } }
+    </style>
 </head>
 
 <body>
+    <!-- ---------------- New portfolio announcement ---------------- -->
+    <div class="newsite-banner" role="region" aria-label="New portfolio announcement">
+        <span class="newsite-dot"></span>
+        <span class="newsite-text">This is my <b>older</b> portfolio &mdash; I&rsquo;ve launched a brand-new one ✨</span>
+        <a class="newsite-btn" href="https://qazimaazarshad.github.io/" target="_blank" rel="noopener">Visit the new site &rarr;</a>
+        <button class="newsite-close" aria-label="Dismiss" onclick="this.parentElement.remove()">&times;</button>
+    </div>
+    <!-- --------------x------- New portfolio announcement -------x-------- -->
     <!-- Scroll Bar -->
     <div class="scroll-bar">
         <!------------------- Preloader ------------------->
